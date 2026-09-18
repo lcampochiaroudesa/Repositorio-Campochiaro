@@ -115,6 +115,38 @@ background-color: rgb(142, 23, 3);
 .formulario form div {
   margin-bottom: 15px;
 }
-.layout {
+
+
+.productoo {
+  flex: 1;
+  padding: 40px;
+}
+
+.productodetalles {
   display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.productodetalles img {
+  width: 350px;
+  border-radius: 8px;
+}
+
+.productoinfo {
+  max-width: 500px;
+}
+
+.productoinfo h2 {
+  margin-top: 0;
+}
+
+.productoinfo .precio {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(142, 23, 3);
+}
+
+.navegando {
+    display: flex;
 }

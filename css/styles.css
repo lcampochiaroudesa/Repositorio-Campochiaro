@@ -150,3 +150,6 @@ background-color: rgb(142, 23, 3);
 .navegando {
     display: flex;
 }
+.precio {
+    color: rgb(142, 23, 3);
+}

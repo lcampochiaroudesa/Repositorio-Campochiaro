@@ -120,6 +120,8 @@ background-color: rgb(142, 23, 3);
 .productoo {
   flex: 1;
   padding: 40px;
+  background-image: url(/Users/felipemalovini/Desktop/DesarrollodeFrontEnd/Repositorio-Campochiaro/img/Escudodefondo.png);
+  background-repeat: repeat;
 }
 
 .productodetalles {

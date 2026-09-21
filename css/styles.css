@@ -81,6 +81,7 @@ background-color: rgb(142, 23, 3);
   background-color: rgb(142, 23, 3);
   padding: 20px;
   flex-shrink: 0;
+  margin-bottom: 15px;
 }
 
 .navegador ul {

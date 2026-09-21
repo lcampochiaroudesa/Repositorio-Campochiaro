@@ -135,15 +135,15 @@ background-color: rgb(142, 23, 3);
   border-radius: 8px;
 }
 
-.productoinfo {
+.productinfo {
   max-width: 500px;
 }
 
-.productoinfo h2 {
+.productinfo h2 {
   margin-top: 0;
 }
 
-.productoinfo .precio {
+.productinfo .precio {
   font-size: 24px;
   font-weight: bold;
   color: rgb(142, 23, 3);

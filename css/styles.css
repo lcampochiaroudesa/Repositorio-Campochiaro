@@ -216,7 +216,6 @@ background-color: rgb(142, 23, 3);
 
 .reviews {
     width: 80%;
-    
 }
 
 .reviews h2 {
@@ -225,7 +224,7 @@ background-color: rgb(142, 23, 3);
 
 .reseña {
     border-top: 2px solid #b01c1c;
-    padding: 5px 0;
+    
 }
 
 .estrellas {

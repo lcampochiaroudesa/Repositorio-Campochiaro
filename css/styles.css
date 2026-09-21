@@ -153,7 +153,11 @@ background-color: rgb(142, 23, 3);
 }
 .precio {
     color: rgb(142, 23, 3);
+    font-size: 35px;
 }
 .categorias {
+    color: white;
+}
+.tituloproduct{
     color: white;
 }

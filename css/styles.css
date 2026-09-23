@@ -45,10 +45,6 @@ background-color: rgb(142, 23, 3);
   align-items: center;
 }
 
-.logo {
-  width: 120px;
-  margin-top: -20px;
-}
 
 .botones {
   display: flex;
@@ -246,3 +242,10 @@ border-radius: 9px;
 border: solid;
 }
 
+.logillo {
+
+  height: 260px;   
+  width: auto;
+  object-fit: contain;
+
+}

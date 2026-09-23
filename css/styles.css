@@ -237,10 +237,11 @@ padding: 5px;
 }
 
 .buscador {
-background-color: rgb(0, 53, 175);
+background-color: rgb(120, 142, 230);
 border-radius: 9px;
 border: solid;
 }
+<<<<<<< HEAD
 
 .logillo {
 
@@ -248,4 +249,8 @@ border: solid;
   width: auto;
   object-fit: contain;
 
+=======
+.nombrecito {
+  color: white;
+>>>>>>> d52a9a24a3f0494ee7f7e7fd6f23d1f26c29cfdb
 }

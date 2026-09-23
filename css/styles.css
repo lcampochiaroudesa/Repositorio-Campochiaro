@@ -254,3 +254,6 @@ background-color: rgb(0, 53, 175);
 border-radius: 9px;
 border: solid;
 }
+.nombre {
+  color: white;
+}

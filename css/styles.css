@@ -9,13 +9,20 @@ font-optical-sizing: auto;
 display: flex;
 text-align: left;
 padding-left: 10px;
+  width: 220px;
+  overflow-y: auto;
+  background-color: rgb(142, 23, 3);
+  padding: 20px;
+  flex-shrink: 0;
+  
 }
 
 
 .navegador ul{
-
-
    list-style-type: none;
+    list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -62,22 +69,6 @@ background-color: rgb(142, 23, 3);
   border-radius: 10px;
 }
 
-
-.navegador {
-  width: 220px;
-  height: 100vh;
-  overflow-y: auto;
-  background-color: rgb(142, 23, 3);
-  padding: 20px;
-  flex-shrink: 0;
-  margin-bottom: 15px;
-}
-
-.navegador ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 .navegador li a {
   color: white;
@@ -190,7 +181,7 @@ background-color: rgb(142, 23, 3);
   background-color: rgb(142, 23, 3);
   color: white;
   padding: 30px 40px;
-  margin-top: 40px;
+
 }
 
 .piecito ul {
@@ -255,6 +246,5 @@ border-radius: 9px;
 border: solid;
 }
 .nombrecito {
- color: white;
- 
+  color: white;
 }

@@ -43,15 +43,6 @@ background-color: rgb(142, 23, 3);
   margin-top: -20px;
 }
 
-.info h1 {
-  margin: 5px 0;
-}
-
-.info h2 {
-  margin: 0;
-  font-weight: normal;
-}
-
 .botones {
   display: flex;
   gap: 20px;

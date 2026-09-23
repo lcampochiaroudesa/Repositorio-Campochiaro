@@ -143,10 +143,16 @@ background-color: rgb(142, 23, 3);
 }
 .precio {
     color: rgb(142, 23, 3);
+    font-size: 35px;
 }
 .categorias {
     color: white;
 }
+<<<<<<< HEAD
+.tituloproduct{
+    color: white;
+}
+=======
 
 .contenidoindex {
   flex: 1;
@@ -253,3 +259,4 @@ background-color: rgb(0, 53, 175);
 border-radius: 9px;
 border: solid;
 }
+>>>>>>> 187654f20630c191764fbe8c52be963085abc368

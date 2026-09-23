@@ -244,3 +244,23 @@ background-color: rgb(142, 23, 3);
 .nombre {
     font-weight: bold;
 }
+
+.busqueda {
+  display: flex;
+  flex-direction: row;
+}
+
+.busqueda input {
+margin-right: 8px;
+padding: 5px;
+}
+
+.busqueda button {
+  padding: 5px;
+}
+
+.buscador {
+background-color: rgb(0, 53, 175);
+border-radius: 9px;
+border: solid;
+}

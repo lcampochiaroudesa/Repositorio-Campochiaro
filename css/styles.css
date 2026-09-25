@@ -222,41 +222,33 @@ background-color: rgb(142, 23, 3);
     font-size: 13px;
     color: gray;
 }
-
 .nombre {
     font-weight: bold;
 }
-
 .busqueda {
   display: flex;
   flex-direction: row;
 }
-
 .busqueda input {
 margin-right: 8px;
 padding: 5px;
 }
-
 .busqueda button {
   padding: 5px;
 }
-
 .buscador {
 background-color: rgb(232, 217, 217);
 border-radius: 9px;
 border: solid;
 }
-
 .formulario input {
 border-radius: 5px;
 }
-
 .cajaforms {
 background-color: #b01c1c;
 padding: 15px;
 border-radius: 10px;  
 }
-
 .caja {
   align-items: center;
   justify-content: center;
@@ -264,47 +256,37 @@ border-radius: 10px;
 .nombrecito {
   color: white;
 }
-
 .logillo {
-
 height: 260px;
-
 }
-
 @media (max-width: 480px) {
  
  .nombre {
    font-size: 22px;
  }
- 
  .logo,
  .logillo {
    width: 90px;
    height: auto;
  }
- 
  .busqueda {
    flex-direction: column;
    width: 100%;
  }
- 
  .busqueda input,
  .busqueda button {
    width: 100%;
    margin-right: 0;
    margin-bottom: 8px;
  }
- 
  .productosindex {
    gap: 20px;
    justify-content: center;
  }
- 
  .articulos {
    width: 100%;
    max-width: 280px;
  }
- 
  .precio {
    font-size: 28px;
  }

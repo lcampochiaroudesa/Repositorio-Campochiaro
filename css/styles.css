@@ -152,7 +152,6 @@ background-color: rgb(142, 23, 3);
   gap: 40px;
   margin-top: 20px;
 }
-
 .articulos {
   width: 220px;
   border: 1px solid;
@@ -259,6 +258,7 @@ border-radius: 10px;
 .logillo {
 height: 260px;
 }
+
 @media (max-width: 480px) {
  
  .nombre {
@@ -292,3 +292,50 @@ height: 260px;
  }
  
 }
+@media (max-width: 768px) {
+ .cabeza {
+   flex-direction: column;
+   height: auto;
+   gap: 15px;
+   padding: 20px;
+   text-align: center;
+ }
+ .botones {
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .botones p {
+   padding: 15px 20px;
+   font-size: 15px;
+ }
+ .navegando {
+   flex-direction: column;
+ }
+ .navegador {
+   width: 100%;
+   height: auto;
+   overflow-y: visible;
+ }
+ .contenidoindex {
+   padding: 20px;
+ }
+ .productodetalles {
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+ }
+ .productodetalles img {
+   width: 100%;
+   max-width: 300px;
+ }
+ .productinfo {
+   max-width: 100%;
+ }
+ .pie {
+   flex-direction: column;
+   gap: 20px;
+   text-align: center;
+   align-items: center;
+ } 
+}
+

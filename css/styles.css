@@ -344,7 +344,6 @@ height: 260px;
 
 .caja div {
     display: flex;
-    flex-direction: column;
 }
 
 .caja label {
@@ -375,6 +374,60 @@ height: 260px;
 }
 
 .caja a {
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.tyc input {
+  width: 20px;
+  flex-direction: column;
+}
+
+.cajalogin label {
+  margin: 5px;
+}
+
+.cajalogin {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.cajalogin div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cajalogin label {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cajalogin input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+
+.cajalogin button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #202020;
+    color: white;
+    font-size: 18px;
+}
+
+.cajalogin a {
     color: white;
     font-size: 16px;
     text-decoration: underline;

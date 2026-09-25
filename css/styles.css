@@ -248,20 +248,6 @@ border-radius: 9px;
 border: solid;
 }
 
-.formulario input {
-border-radius: 5px;
-}
-
-.cajaforms {
-background-color: #b01c1c;
-padding: 15px;
-border-radius: 10px;  
-}
-
-.caja {
-  align-items: center;
-  justify-content: center;
-}
 .nombrecito {
   color: white;
 }

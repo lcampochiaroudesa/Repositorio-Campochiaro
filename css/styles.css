@@ -150,7 +150,6 @@ background-color: rgb(142, 23, 3);
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  gap: 40px;
   margin-top: 20px;
 }
 

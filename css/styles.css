@@ -237,86 +237,6 @@ border: solid;
 height: 260px;
 }
 
-@media (max-width: 480px) {
- 
- .nombre {
-   font-size: 22px;
- }
- .logo,
- .logillo {
-   width: 90px;
-   height: auto;
- }
- .busqueda {
-   flex-direction: column;
-   width: 100%;
- }
- .busqueda input,
- .busqueda button {
-   width: 100%;
-   margin-right: 0;
-   margin-bottom: 8px;
- }
- .productosindex {
-   gap: 20px;
-   justify-content: center;
- }
- .articulos {
-   width: 100%;
-   max-width: 280px;
- }
- .precio {
-   font-size: 28px;
- }
- 
-}
-@media (max-width: 768px) {
- .cabeza {
-   flex-direction: column;
-   height: auto;
-   gap: 15px;
-   padding: 20px;
-   text-align: center;
- }
- .botones {
-   flex-wrap: wrap;
-   justify-content: center;
- }
- .botones p {
-   padding: 15px 20px;
-   font-size: 15px;
- }
- .navegando {
-   flex-direction: column;
- }
- .navegador {
-   width: 100%;
-   height: auto;
-   overflow-y: visible;
- }
- .contenidoindex {
-   padding: 20px;
- }
- .productodetalles {
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
- }
- .productodetalles img {
-   width: 100%;
-   max-width: 300px;
- }
- .productinfo {
-   max-width: 100%;
- }
- .pie {
-   flex-direction: column;
-   gap: 20px;
-   text-align: center;
-   align-items: center;
- } 
-}
-
 .formulario {
     display: flex;
     justify-content: center;
@@ -431,4 +351,86 @@ height: 260px;
     color: white;
     font-size: 16px;
     text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+ .cabeza {
+   flex-direction: column;
+   height: auto;
+   gap: 15px;
+   padding: 20px;
+   text-align: center;
+ }
+ .botones {
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .botones p {
+   padding: 15px 20px;
+   font-size: 15px;
+ }
+ .navegando {
+   flex-direction: column;
+ }
+ .navegador {
+   width: 100%;
+   height: auto;
+   overflow-y: visible;
+ }
+ .contenidoindex {
+   padding: 20px;
+ }
+ .productodetalles {
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+ }
+ .productodetalles img {
+   width: 100%;
+   max-width: 300px;
+ }
+ .productinfo {
+   max-width: 100%;
+ }
+ .pie {
+   flex-direction: column;
+   gap: 20px;
+   text-align: center;
+   align-items: center;
+ } 
+ 
+ @media (max-width: 480px) {
+ 
+ .nombre {
+   font-size: 22px;
+ }
+ .logo,
+ .logillo {
+   width: 90px;
+   height: auto;
+ }
+ .busqueda {
+   flex-direction: column;
+   width: 100%;
+ }
+ .busqueda input,
+ .busqueda button {
+   width: 100%;
+   margin-right: 0;
+   margin-bottom: 8px;
+ }
+ .productosindex {
+   gap: 20px;
+   justify-content: center;
+ }
+ .articulos {
+   width: 100%;
+   max-width: 280px;
+ }
+ .precio {
+   font-size: 28px;
+ }
+ 
+}
 }

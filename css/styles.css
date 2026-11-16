@@ -237,39 +237,123 @@ border: solid;
 height: 260px;
 }
 
-@media (max-width: 480px) {
- 
- .nombre {
-   font-size: 22px;
- }
- .logo,
- .logillo {
-   width: 90px;
-   height: auto;
- }
- .busqueda {
-   flex-direction: column;
-   width: 100%;
- }
- .busqueda input,
- .busqueda button {
-   width: 100%;
-   margin-right: 0;
-   margin-bottom: 8px;
- }
- .productosindex {
-   gap: 20px;
-   justify-content: center;
- }
- .articulos {
-   width: 100%;
-   max-width: 280px;
- }
- .precio {
-   font-size: 28px;
- }
- 
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
+.cajaforms {
+  background-color: rgb(142, 23, 3);
+  width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.caja label {
+  margin: 5px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.caja div {
+    display: flex;
+}
+
+.caja label {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.caja input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+
+.caja button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #202020;
+    color: white;
+    font-size: 18px;
+}
+
+.caja a {
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.tyc input {
+  width: 20px;
+  flex-direction: column;
+}
+
+.cajalogin label {
+  margin: 5px;
+}
+
+.cajalogin {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.cajalogin div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cajalogin label {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cajalogin input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+
+.cajalogin button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #202020;
+    color: white;
+    font-size: 18px;
+}
+
+.cajalogin a {
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+
 @media (max-width: 768px) {
  .cabeza {
    flex-direction: column;
@@ -315,67 +399,38 @@ height: 260px;
    text-align: center;
    align-items: center;
  } 
+ 
+ @media (max-width: 480px) {
+ 
+ .nombre {
+   font-size: 22px;
+ }
+ .logo,
+ .logillo {
+   width: 90px;
+   height: auto;
+ }
+ .busqueda {
+   flex-direction: column;
+   width: 100%;
+ }
+ .busqueda input,
+ .busqueda button {
+   width: 100%;
+   margin-right: 0;
+   margin-bottom: 8px;
+ }
+ .productosindex {
+   gap: 20px;
+   justify-content: center;
+ }
+ .articulos {
+   width: 100%;
+   max-width: 280px;
+ }
+ .precio {
+   font-size: 28px;
+ }
+ 
 }
-
-.formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.cajaforms {
-  background-color: rgb(142, 23, 3);
-  width: 400px;
-    padding: 40px;
-    border-radius: 20px;
-}
-
-.caja label {
-  margin: 5px;
-}
-
-.caja {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    
-}
-
-.caja div {
-    display: flex;
-    flex-direction: column;
-}
-
-.caja label {
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.caja input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-
-
-.caja button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    background-color: #202020;
-    color: white;
-    font-size: 18px;
-}
-
-.caja a {
-    color: white;
-    font-size: 16px;
-    text-decoration: underline;
 }

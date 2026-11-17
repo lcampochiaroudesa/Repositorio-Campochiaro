@@ -24,3 +24,6 @@ fetch('https://dummyjson.com/products/category/sports-accessories')
 
         seccionDeportes.innerHTML = articulosDeportes;
     })
+  .catch(function(error){
+        console.log('El error es: ' + error);
+    });

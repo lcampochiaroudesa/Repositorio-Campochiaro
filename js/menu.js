@@ -1,10 +1,21 @@
-fetch('https://dummyjson.com/products')
-.then(function(response){
- return response.json();
-})
-.then(function(data){
-   
-})
+let listaCategorias = document.querySelector(".lista-categorias");
+
+fetch('https://dummyjson.com/products/categories')
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(data){
+        let contenido = "";
+
+        for (let i = 0; i < data.length; i++) {
+            contenido += `<li><a href="./category.html?categoria=${data[i].slug}">${data[i].name}</a></li>`;
+        }
+
+        listaCategorias.innerHTML = contenido;
+    })
+    .catch(function(error){
+        console.log('El error es: ' + error);
+    });
 
 
 let formulario = document.querySelector ("form")

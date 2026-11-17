@@ -28,7 +28,6 @@ fetch('https://dummyjson.com/products/category/sports-accessories')
         console.log('El error es: ' + error);
     });
 
-
     fetch('https://dummyjson.com/products/category/smartphones')
     .then(function(response){
         return response.json();

@@ -27,3 +27,30 @@ fetch('https://dummyjson.com/products/category/sports-accessories')
   .catch(function(error){
         console.log('El error es: ' + error);
     });
+
+
+    fetch('https://dummyjson.com/products/category/smartphones')
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(data){
+        let productosTelefonos = data.products;
+        let articulosTelefonos = "";
+
+        for (let i = 0; i < productosTelefonos.length; i++) {
+            articulosTelefonos += `
+                <article class="articulos">
+                    <img src="${productosTelefonos[i].thumbnail}" alt="${productosTelefonos[i].title}">
+                    <p class="titulo-producto">${productosTelefonos[i].title}</p>
+                    <p class="descripcion">${productosTelefonos[i].description}</p>
+                    <p class="precio">$${productosTelefonos[i].price}</p>
+                    <a href="./product.html?id=${productosTelefonos[i].id}">Ver detalle</a>
+                </article>
+            `;
+        }
+
+        seccionTelefonos.innerHTML = articulosTelefonos;
+    })
+    .catch(function(error){
+        console.log('El error es: ' + error);
+    });

@@ -18,7 +18,7 @@ fetch('https://dummyjson.com/products/categories')
     });
 
 
-let formulario = document.querySelector ("form")
+let formulario = document.querySelector (".busqueda")
 let inputBuscador = document.querySelector ("#buscador")
 let errorBuscador = document.querySelector (".error-buscador")
 

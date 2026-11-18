@@ -13,15 +13,15 @@ e.preventDefault();
 if (inputEmail.value == "" ){
     errorEmail.style.display = "block";
     errorEmail.innerHTML = "<p>Este campo no puede estar vacío</p>";
-    errorEmail.style.color = "white"
+    errorEmail.style.color = "yellow"
 } else if (inputPassword.value == ""){
     errorPassword.style.display = "block";
     errorPassword.innerHTML = "<p>Este campo no puede estar vacio</p>";
-     errorPassword.style.color = "white"
+     errorPassword.style.color = "yellow"
 } else if (inputPassword.value.length < 6){
     errorPassword.style.display = "block";
     errorPassword.innerHTML = "<p> La contraseña debe tener al menos 6 caracteres</p>"
-     errorPassword.style.color = "white"
+     errorPassword.style.color = "yellow"
 }else{
 
     localStorage.setItem("email",inputEmail.value)

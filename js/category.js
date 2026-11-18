@@ -36,7 +36,7 @@ fetch(`https://dummyjson.com/products/category/${nombreCategoria}`)
         }
 
 
-        seccionDeportes.innerHTML = articulosDeportes;
+        listaProductos.innerHTML = articulosDeportes;
     })
   .catch(function(error){
         console.log('El error es: ' + error);

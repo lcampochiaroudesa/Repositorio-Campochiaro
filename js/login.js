@@ -24,7 +24,7 @@ if (inputEmail.value == "" ){
      errorPassword.style.color = "yellow"
 }else{
 
-    localStorage.setItem("email",inputEmail.value)
+    localStorage.setItem('email',inputEmail.value)
 
     this.submit();
 }

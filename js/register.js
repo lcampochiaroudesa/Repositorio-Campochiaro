@@ -35,7 +35,13 @@ if (inputEmailRegister.value == "" ){
         errorRpasswordRegister.innerHTML = "<p>Este campo es obligatorio</p>";
         errorRpasswordRegister.style.color = "white";
 
-} else {
+} else if (inputPasswordRegister.value = inputRpasswordRegister){
+
+    errorRpasswordRegister.style.display = "block";
+    errorRpasswordRegister.innerHTML = "<p> Las contraseñas no coinciden </p>";
+    errorRpasswordRegister.sthyle.color = "white";
+
+}else{
 
 this.submit ();
 

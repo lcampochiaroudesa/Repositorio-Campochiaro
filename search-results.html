@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipin Tecnologia y Deportes</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabeza">
+        <article>
+            <h1 class="nombrecito"> Pipin Tecnologia y Deportes </h1>
+
+            <form class="busqueda" action="./search-results.html" method="get">
+                <div>
+                    <input class="buscador" id="buscador" type="text" name="buscador" value="" placeholder="Que estas buscando?">
+                    <div class="invalid-feedback error-buscador"></div>
+                </div>
+                <div>
+                    <button class="buscador" type="submit">Buscar</button>
+                </div>
+            </form>
+        </article>
+        <a href="./index.html">
+            <img class="logillo" src="./img/pipin.png" alt="Logo Pipin">
+        </a>
+        <div class="botones">
+            <a href="./login.html">
+                <p> Iniciar Sesion </p>
+            </a>
+            <a href="./register.html">
+                <p>Registrarse</p>
+            </a>
+        </div>
+    </header>
+
+    <div class="navegando">
+
+        <nav class="navegador">
+            <ul>
+                <h3><a href="index.html">Inicio</a></h3>
+
+                <h3 class="categorias">Categorias</h3>
+
+                <li>
+                    <ul class="lista-categorias">
+                    </ul>
+                </li>
+
+                <h3 class="categorias">Ofertas</h3>
+            </ul>
+        </nav>
+
+        <main class="contenidoindex">
+            <h2 class="titulobusqueda"></h2>
+
+            <p class="sinresultados"></p>
+
+            <div class="productosindex listaresultados">
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="pie">
+        <div class="piecito">
+            <h3>Contactános </h3>
+            <ul>
+                <li>5491128652288</li>
+                <li> urba14store@gmail.com</li>
+                <li>Campochiaro Luca, Escandon Felipe, Malovini Felipe</li>
+            </ul>
+        </div>
+        <div class="piecito">
+            <h3>Tienda Física </h3>
+            <ul>
+                <li> B1670 Rincón de Milberg, Provincia de Buenos Aires</li>
+            </ul>
+        </div>
+        <div class="piecito">
+            <h3>© 2026 Pipin Tecnologia y Deportes. Todos los derechos reservados.</h3>
+        </div>
+    </footer>
+
+    <script src="./js/search-results.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

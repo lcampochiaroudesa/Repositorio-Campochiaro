@@ -3,8 +3,8 @@ let linkLogout = document.querySelector("#logout");
 
 
 if (linkLogout != null) {
-    linkLogout.addEventListener("click", function(evento){
-        evento.preventDefault();
+    linkLogout.addEventListener("click", function(e){
+        e.preventDefault();
 
         localStorage.removeItem("email");
         

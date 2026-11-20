@@ -6,7 +6,7 @@ let tituloBusqueda = document.querySelector(".titulobusqueda")
 let mensajeSinResultados = document.querySelector(".sinresultados")
 let listaResultados = document.querySelector(".listaresultados")
 
-tituloBusqueda.innerText = "Resultados de búsqueda para: " + terminoBuscado
+tituloBusqueda.innerHTML = "Resultados de búsqueda para: " + terminoBuscado
 
 fetch(`https://dummyjson.com/products/search?q=${terminoBuscado}`)
 .then(function(response){
@@ -16,7 +16,7 @@ fetch(`https://dummyjson.com/products/search?q=${terminoBuscado}`)
     let productosEncontrados = data.products
 
     if (productosEncontrados.length == 0){
-        mensajeSinResultados.innerText = "No hay resultados para el término: " + terminoBuscado
+        mensajeSinResultados.innerHTML = "No hay resultados para el término: " + terminoBuscado
     } else {
         let articulosResultados = ""
 

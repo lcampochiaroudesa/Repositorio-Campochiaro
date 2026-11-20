@@ -1,9 +1,4 @@
-console.log("logout.js cargado");
-console.log(document.querySelector("#logout"));
-
-
-
-let botones = document.querySelectorAll(".botones");
+let botones = document.querySelector(".botones");
 let linkLogout = document.querySelector("#logout");
 
 

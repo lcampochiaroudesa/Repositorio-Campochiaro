@@ -53,6 +53,7 @@ background-color: rgb(17, 26, 46);
 .botones {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .botones a {
@@ -63,7 +64,7 @@ background-color: rgb(17, 26, 46);
   margin: 0;
  background-color: rgb(17, 26, 46);
   color: white;
-  padding: 25px 35px;
+  padding: 25px 20px;
   font-size: 18px;
   font-weight: bold;
   border-radius: 10px;
